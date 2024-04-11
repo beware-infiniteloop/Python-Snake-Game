@@ -143,9 +143,9 @@ class Game:
 
     def play_sound(self, sound_name):
         if sound_name == "crash":
-            sound = pygame.mixer.Sound("apple eating.mp3")
+            sound = pygame.mixer.Sound("game over.mp3")
         elif sound_name == 'ding':
-            sound = pygame.mixer.Sound("apple eating.mp3")
+            sound = pygame.mixer.Sound("game over.mp3")
 
         pygame.mixer.Sound.play(sound)
 
